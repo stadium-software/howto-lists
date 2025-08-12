@@ -69,13 +69,13 @@ Incoming properties can be mapped to `List` properties when names of the propert
 
 The `Mapping Editor` displays information in two columns, the target information on the left and the source on the right. 
 
-The target information column provides the 
+![](images/MappingEditor.png)
+
+The target information column (left) provides the 
 1. Target List 
 2. All mappable properties of the Target
 
-![](images/MappingEditor.png)
-
-The source column provides 
+The source column (right) provides 
 1. A dropdown to select the source data `List`
 2. Input fields to define the mapping for source List properties. The `MapItem` option in the dropdown represents a `List Item`. Where suh an item consists of a known type, the type properties are provided for selection. 
 
