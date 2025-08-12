@@ -61,11 +61,11 @@ Connector Data is commonly provided as a List JSON ist of objects. The `Result` 
 
 ![](images/DefinedConnectorDataType.png)
 
+## Value Mapping
+
 Incoming properties can be mapped to `List` properties when names of the properties of the assigned data differ from the `List` `Item Type` properties. For this purpose, selet the `Field Mapping` option in the `List` `Value` property dropdown. 
 
 ![](images/FieldMappingOption.png)
-
-## Value Mapping
 
 The `Mapping Editor` displays information in two columns, the target information on the left and the source on the right. 
 
