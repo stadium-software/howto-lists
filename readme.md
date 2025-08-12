@@ -15,7 +15,7 @@ This How-To details some methods for working with `Lists` in Stadium.
 
 ## Creating Lists
 
-Lists are always of a specific type. The type can be selected in the `Item Type` property of a `List`
+Lists can be of a specific type or of type 'Any'. The type can be selected in the `Item Type` property of a `List`. 'Any' is the default
 
 ![](images/ListItemTypeProperty.png)
 
