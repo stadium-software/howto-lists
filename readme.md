@@ -1,23 +1,16 @@
-# How-To Lists
+# How-To Lists <!-- omit in toc -->
 
 This How-To details some methods for working with `Lists` in Stadium. 
 
-1. Javascript and JSON arrays
-2. Creating `Lists`
-3. Adding static data
-4. Adding data from a connector
-4. Mapping Editor
-4. Adding items one-by-one to `Lists` in `ForEach` loops
-5. Populating `Lists` from JSON
-6. Removing items from `Lists`
-7. Converting `Lists`
-    1. Adding a property
-    2. Removing properties
-8. Other `List` repos
-    1. Deduplicate list
-    2. Filter List of Objects
-    3. Insert Into List At
-    4. Sort List By
+1. [Creating Lists](#creating-lists)
+2. [Adding Static Data](#adding-static-data)
+3. [Adding JSON or Javascript Data](#adding-json-or-javascript-data)
+4. [Mapping Editor](#mapping-editor)
+5. [Adding Items to Lists](#adding-items-to-lists)
+6. [Removing Items from Lists](#removing-items-from-lists)
+7. [Removing Properties from Lists](#removing-properties-from-lists)
+8. [Adding Properties to Lists](#adding-properties-to-lists)
+9. [List Repos](#list-repos)
 
 ## Creating Lists
 
