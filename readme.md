@@ -3,14 +3,15 @@
 This How-To details some methods for working with `Lists` in Stadium. 
 
 1. [Creating Lists](#creating-lists)
-2. [Adding Static Data](#adding-static-data)
-3. [Adding Copnnector, JSON or Javascript Data](#adding-copnnector-json-or-javascript-data)
-4. [Value Mapping](#value-mapping)
-5. [Adding Items to Lists](#adding-items-to-lists)
-6. [Removing Items from Lists](#removing-items-from-lists)
-7. [Adding Properties to Lists](#adding-properties-to-lists)
-8. [Removing Properties from Lists](#removing-properties-from-lists)
-9. [Other List Repos](#other-list-repos)
+2. [Setting List Types](#setting-list-types)
+3. [Adding Static Data](#adding-static-data)
+4. [Adding Copnnector, JSON or Javascript Data](#adding-copnnector-json-or-javascript-data)
+5. [Value Mapping](#value-mapping)
+6. [Adding Items to Lists](#adding-items-to-lists)
+7. [Removing Items from Lists](#removing-items-from-lists)
+8. [Adding Properties to Lists](#adding-properties-to-lists)
+9. [Removing Properties from Lists](#removing-properties-from-lists)
+10. [Other List Repos](#other-list-repos)
 
 ## Creating Lists
 
@@ -23,6 +24,14 @@ If the `ListItemType` property is set to `Any`, then the List will accept any Ja
 However, as the type of each item is not known in this case, Stadium will treat each list item as a value. So, when assigning an array of objects, dropdowns in the rest of Stadium will not display the properties of the object. 
 
 ![](images/StadiumDropDownListTypeAny.png)
+
+To access properties of a list of objects, the property can manually be appended to the list item
+
+```javascript
+~.AnyList.ListItem.id;
+```
+
+## Setting List Types
 
 It is therefor advisable to set the `ListItemType` property to a known type when working with `Lists` of objects. It then becomes necessary to first create a type in the `Types` section in the `ApplicationExplorer` and subsequently select that type in the `ListItemType` property. 
 
