@@ -33,7 +33,7 @@ To access properties of a list of objects, the property can manually be appended
 
 ## Setting List Types
 
-It is therefor advisable to set the `ListItemType` property to a known type when working with `Lists` of objects. It then becomes necessary to first create a type in the `Types` section in the `ApplicationExplorer` and subsequently select that type in the `ListItemType` property. 
+It is therefore advisable to set the `ListItemType` property to a known type when working with `Lists` of objects. It then becomes necessary to first create a type in the `Types` section in the `ApplicationExplorer` and subsequently select that type in the `ListItemType` property. 
 
 ![](images/KnownTypeSelection.png)
 
@@ -103,7 +103,7 @@ Using this method, one `List` can be populated with values from another one in a
 
 ## Removing Items from Lists
 
-Individual items from be removed from `Lists` using a variety of different Javascript functions.
+Individual items can be removed from `Lists` using a variety of different Javascript functions.
 
 **Splice**
 
