@@ -4,7 +4,7 @@ This How-To details some methods for working with `Lists` in Stadium.
 
 1. [Creating Lists](#creating-lists)
 2. [Adding Static Data](#adding-static-data)
-3. [Adding JSON or Javascript Data](#adding-json-or-javascript-data)
+3. [Adding Copnnector, JSON or Javascript Data](#adding-copnnector-json-or-javascript-data)
 4. [Mapping Editor](#mapping-editor)
 5. [Adding Items to Lists](#adding-items-to-lists)
 6. [Removing Items from Lists](#removing-items-from-lists)
@@ -42,7 +42,7 @@ Object data for defined types can be added by further opening the `Object Proper
 
 ![](images/StaticListSpecificType.png)
 
-## Adding JSON or Javascript Data
+## Adding Copnnector, JSON or Javascript Data
 
 Connector Data is commonly provided as a List JSON ist of objects. The `Result` of a query or any other JSON or Javascript array can hence be directly assigned to a `List` when the `List Item Type` contains all or a subset of the properties of the incoming data. For this purpose
 
