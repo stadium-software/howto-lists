@@ -73,11 +73,11 @@ The target information column provides the
 1. Target List 
 2. All mappable properties of the Target
 
+![](images/MappingEditor.png)
+
 The source column provides 
 1. A dropdown to select the source data `List`
 2. Input fields to define the mapping for source List properties. The `MapItem` option in the dropdown represents a `List Item`. Where suh an item consists of a known type, the type properties are provided for selection. 
-
-![](images/MappingEditor.png)
 
 ## Adding Items to Lists
 
