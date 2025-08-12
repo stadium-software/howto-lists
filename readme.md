@@ -37,7 +37,7 @@ It is therefor advisable to set the `ListItemType` property to a known type when
 
 ![](images/KnownTypeSelection.png)
 
-When a type is defined, various dropdowns in the Stadium Designer will provide an option to select specific properties os the `List`
+When a type is defined, various dropdowns in the Stadium Designer will provide an option to select specific properties of the `List`
 
 ![](images/StadiumDropDownListTypeSpecific.png)
 
@@ -53,7 +53,7 @@ Object data for defined types can be added by further opening the `Object Proper
 
 ## Adding Connector, JSON or Javascript Data
 
-Connector Data is commonly provided as a List JSON ist of objects. The `Result` of a query or any other JSON or Javascript array can hence be directly assigned to a `List` when the `List Item Type` contains all or a subset of the properties of the incoming data. For this purpose
+Connector Data is commonly provided as a JSON List of objects. The `Result` of a query or any other JSON or Javascript array can hence be directly assigned to a `List`. When the `List Item Type` contains all or a subset of the properties of the incoming data the properties will be auto-mapped. For this purpose
 
 1. Create a type with properties that match those of the incoming dataset
 2. Assign the type to the `Item Type` property of the `List`
@@ -63,7 +63,7 @@ Connector Data is commonly provided as a List JSON ist of objects. The `Result` 
 
 ## Value Mapping
 
-Incoming properties can be mapped to `List` properties when names of the properties of the assigned data differ from the `List` `Item Type` properties. For this purpose, selet the `Field Mapping` option in the `List` `Value` property dropdown. 
+Incoming properties can be mapped to `List` properties when names of the properties of the assigned data differ from the `List` `Item Type` properties. For this purpose, select the `Field Mapping` option in the `List` `Value` property dropdown. 
 
 ![](images/FieldMappingOption.png)
 
@@ -77,7 +77,7 @@ The target information column (left) provides the
 
 The source column (right) provides 
 1. A dropdown to select the source data `List`
-2. Input fields to define the mapping for source List properties. The `MapItem` option in the dropdown represents a `List Item`. Where suh an item consists of a known type, the type properties are provided for selection. 
+2. Input fields to define the mapping for source List properties. The `MapItem` option in the dropdown represents a `List Item`. Where such an item consists of a known type, the type properties are provided for selection. 
 
 ## Adding Items to Lists
 
@@ -85,7 +85,7 @@ Adding items into a `List` can be accomplished by using a `Javascript` action.
 
 ![](images/AddToAnyList.png)
 
-The Javascript push function also accepts objects for defined `List` types
+The JavaScript push function can also add objects to a `List`. Properties are then mapped by name.
 
 ![](images/AddToDefinedList.png)
 
