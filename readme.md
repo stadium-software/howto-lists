@@ -5,7 +5,7 @@ This How-To details some methods for working with `Lists` in Stadium.
 1. [Creating Lists](#creating-lists)
 2. [Adding Static Data](#adding-static-data)
 3. [Adding Copnnector, JSON or Javascript Data](#adding-copnnector-json-or-javascript-data)
-4. [Mapping Editor](#mapping-editor)
+4. [Value Mapping](#value-mapping)
 5. [Adding Items to Lists](#adding-items-to-lists)
 6. [Removing Items from Lists](#removing-items-from-lists)
 7. [Removing Properties from Lists](#removing-properties-from-lists)
@@ -56,7 +56,7 @@ Incoming properties can be mapped to `List` properties when names of the propert
 
 ![](images/FieldMappingOption.png)
 
-## Mapping Editor
+## Value Mapping
 
 The `Mapping Editor` displays information in two columns, the target information on the left and the source on the right. 
 
