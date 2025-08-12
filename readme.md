@@ -8,8 +8,8 @@ This How-To details some methods for working with `Lists` in Stadium.
 4. [Value Mapping](#value-mapping)
 5. [Adding Items to Lists](#adding-items-to-lists)
 6. [Removing Items from Lists](#removing-items-from-lists)
-7. [Removing Properties from Lists](#removing-properties-from-lists)
-8. [Adding Properties to Lists](#adding-properties-to-lists)
+7. [Adding Properties to Lists](#adding-properties-to-lists)
+8. [Removing Properties from Lists](#removing-properties-from-lists)
 9. [List Repos](#list-repos)
 
 ## Creating Lists
@@ -137,15 +137,6 @@ Creates a new `List` containing only the elements that pass a provided test func
 let newList = ~.AnyList.filter(num => num > 3);
 ```
 
-## Removing Properties from Lists 
-Removing a property from a `List` of a specific type (a List of objects) can be achieved by looping through the `List`
-
-```javascript
-~.UsersList.forEach(obj => {
-    delete obj.age; 
-});
-```
-
 ## Adding Properties to Lists
 Adding a property with a distinct value to a `List` of a specific type (a List of objects) can be achieved by looping through the `List`
 
@@ -159,6 +150,15 @@ Adding a property with the same value can also be achieved without an explicit l
 ```javascript
 const newList = ~.UsersList.map(obj => {
     return { ...obj, isActive: true }; // Creates a new object with existing properties and the new 'isActive' property
+});
+```
+
+## Removing Properties from Lists 
+Removing a property from a `List` of a specific type (a List of objects) can be achieved by looping through the `List`
+
+```javascript
+~.UsersList.forEach(obj => {
+    delete obj.age; 
 });
 ```
 
