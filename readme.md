@@ -106,6 +106,7 @@ Using this method, one `List` can be populated with values from another one in a
 Individual items from be removed from `Lists` using a variety of different Javascript functions.
 
 **Splice**
+
 Splice modifies the original `List`
 
 ```javascript
@@ -113,6 +114,7 @@ Splice modifies the original `List`
 ```
 
 **Pop**
+
 Removes and returns the last element of a `List`
 
 ```javascript
@@ -120,6 +122,7 @@ let lastElement = ~.AnyList.pop();
 ```
 
 **Shift**
+
 Removes and returns the first element of a `List`
 
 ```javascript
@@ -127,6 +130,7 @@ let firstElement = ~.AnyList.shift();
 ```
 
 **Delete**
+
 Removes an element at a specific index, but leaves an "empty slot" (the `List` length remains the same, and the value at that index becomes undefined)
 
 This example works for a `List` of values
@@ -140,6 +144,7 @@ delete ~.UsersList[~.UsersList.findIndex(user => user.id === 1)];
 ```
 
 **Filter**
+
 Creates a new `List` containing only the elements that pass a provided test function. In this case it returns all values that are larger than 3
 
 ```javascript
