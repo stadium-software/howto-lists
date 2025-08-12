@@ -10,7 +10,7 @@ This How-To details some methods for working with `Lists` in Stadium.
 6. [Removing Items from Lists](#removing-items-from-lists)
 7. [Adding Properties to Lists](#adding-properties-to-lists)
 8. [Removing Properties from Lists](#removing-properties-from-lists)
-9. [List Repos](#list-repos)
+9. [Other List Repos](#other-list-repos)
 
 ## Creating Lists
 
@@ -162,7 +162,7 @@ Removing a property from a `List` of a specific type (a List of objects) can be 
 });
 ```
 
-## List Repos 
+## Other List Repos 
 A number of other repos exist to assist with the manipulation of `List` data
 
 1. [Deduplicate List](https://github.com/stadium-software/utils-deduplicate-array)
